@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>WannaSmirk</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+</head>
+
+<body>
+    <div class="mainblock container">
+        <div class="container">
+            <!--<img src="images/window.png">-->
+                    <div class="stuffleft container">
+                        <!--<img src="images/left.png" style="float:left;width:200px;">-->
+                        
+                        <div style="float:left;width:90%; margin: 20px;">
+                            
+                            <img src="images/logo.png" width=60%>
+                            <div class="timer-rectangle">
+                                <h4>Payment will be raised on </h4>
+                                <h5 id="payment_raise_date"></h5>
+                                <h5 id="countdown-raise"></h5>
+                            </div>
+                            <br>
+                            <div class="timer-rectangle">
+                                <h4>Your files will be lost on </h4>
+                                <h5 id="payment_lost_date"></h5>
+                                <h5 id="countdown-lost"></h5>
+                            </div>
+                            <br>
+                            <div class="attr-rectangle">
+                            <p>This is a work of parody created by Jonathan McCormick, Jr.</p> <button><a target="_blank" href="https://github.com/LiberlandHacker">@LiberlandHacker</a></button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="main-section">
+                        <h3>Oops, your precious cat videos have been encrypted!</h3>
+                        
+                        <iframe class="info-section" src="info.html"></iframe>
+                        <div class="other-rectangle">
+                            
+                            <p class="white-text">BTC address to send payment to:</p><code id="crypto-address" class="white-text">01234567899abcdef01234567899abcdef</code>
+                            <button onclick="copyText(this)">Copy</button>
+                        </div>
+                    </div>
+                    
+        </div>
+        
+    </div>
+    
+    
+    
+    
+    <br>
+    <div id="bsod"><img id="myImage" src="images/panic.png"></div><br>
+
+</body>
+
+<script src="script.js"></script>
+</html>
